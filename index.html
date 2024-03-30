@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Obys Agency</title>
     <link rel="stylesheet" href="style.css" />
+
     <!-- loco -->
     <link
       href="
@@ -12,8 +13,11 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
 "
       rel="stylesheet"
     />
+    <!-- shery -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
   </head>
   <body>
+    <div id="crsr"></div>
     <div class="loader" id="loader">
       <div class="line">
         <div id="line1-part1">
@@ -32,7 +36,32 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
       </div>
     </div>
     <div class="main">
-      <div class="page" id="page1">hehehe</div>
+      <div class="page" id="page1">
+        <nav>
+          <div class="logo">OBYS</div>
+          <div class="menu">
+            <span>Work</span>
+            <span>Menu</span>
+            <span>Contacts</span>
+          </div>
+        </nav>
+
+        <div class="hero">
+          <h1>WE DESIGN</h1>
+        </div>
+        <div class="hero">
+          <h1>unique</h1>
+        </div>
+        <div class="hero" id="hero3">
+          <h1>Web</h1>
+          <h1>/</h1>
+          <h1>Graphics</h1>
+        </div>
+        <div class="hero">
+          <h1>Experiences</h1>
+        </div>
+      </div>
+
       <div class="page" id="page2"></div>
       <div class="page" id="page3"></div>
       <div class="page" id="page4"></div>
@@ -53,6 +82,16 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
     integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
+  ></script>
+  <!-- Three.js is needed for 3d Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+  <!-- ControlKit is needed for Debug Panel -->
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <!-- shery -->
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/sheryjs/dist/Shery.js"
   ></script>
 
   <script src="scipt.js"></script>
